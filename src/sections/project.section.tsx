@@ -1,4 +1,8 @@
 import { SectionTitle } from '../components/section-title.component';
+import { netflix-clone } from '../images/netflix-clone';
+import { portfolio } from '../images/portfolio';
+import { weather-dashboard } from '../images/weather-dashboard';
+import { task-manager } from '../images/task-manager';
 
 const timeline = [
 	
@@ -18,7 +22,7 @@ const timeline = [
 						</li>
 					</ul>
 				),
-				image: '../src/images/weather-dashboard.png',
+				image: 'netflix-clone',
 			},
 			
 		],
@@ -40,7 +44,7 @@ const timeline = [
 						</li>
 					</ul>
 				),
-				image: '../src/images/task-manager.png',
+				image: task-manager,
 			},
 		],
 	},
@@ -57,7 +61,7 @@ const timeline = [
 						<li>A portfolio is not just a collection of projects—it’s a digital identity that reflects creativity, technical expertise, and the ability to craft engaging user experiences</li>
 					</ul>
 				),
-				image: './src/images/portfolio.png',
+				image: portfolio,
 			},
 
 		],
@@ -78,7 +82,7 @@ const timeline = [
 						</li>
 					</ul>
 				),
-				image: './src/images/netflix-clone.png',
+				image: "netflix-clone",
 			},
 		],
 	},
@@ -127,3 +131,4 @@ export const ProjectSection = () => {
 		</section>
 	);
 };
+
