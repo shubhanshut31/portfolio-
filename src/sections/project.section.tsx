@@ -1,8 +1,8 @@
 import { SectionTitle } from '../components/section-title.component';
-import { netflixclone } from '../images/netflix-clone.png';
-import { portfolio } from '../images/portfolio.png';
-import { weatherdashboard } from '../images/weather-dashboard.png';
-import { taskmanager } from '../images/task-manager.png';
+import  netflixclone  from '../images/netflix-clone.png';
+import  portfolio  from '../images/portfolio.png';
+import  weatherdashboard  from '../images/weather-dashboard.png';
+import  taskmanager  from '../images/task-manager.png';
 
 const timeline = [
 	
@@ -82,7 +82,7 @@ const timeline = [
 						</li>
 					</ul>
 				),
-				image: "netflixclone",
+				image: netflixclone,
 			},
 		],
 	},
@@ -131,6 +131,7 @@ export const ProjectSection = () => {
 		</section>
 	);
 };
+
 
 
 
